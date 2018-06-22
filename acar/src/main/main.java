@@ -1,14 +1,14 @@
 package main;
 
 public class main {
-	public main(final String[] args) {
-		viewframe.printWindow("AAAAAAAAA"
-							+ "AGDEEDDHA"
-							+ "ACDEEGFFA"
-							+ "AFAAAAFFA"
-							+ "ACEEEEBCA"
-							+ "AF"
-							+ "AH"
-							+ "AAAAAAAAA");
+	public static void main(String[] args) {
+		new viewframe("AAAAAAAAA"
+					+ "AGKEEKKHA"
+					+ "ACDEELFFA"
+					+ "AFAAAAFFA"
+					+ "ACEEEEBJA"
+					+ "AFGEEELFA"
+					+ "AMDEEEELA"
+					+ "AAAAAAAAA");
     }
 }
