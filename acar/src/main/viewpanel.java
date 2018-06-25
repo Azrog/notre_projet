@@ -19,6 +19,9 @@ public class viewpanel extends JPanel {
 	private int ymax = 8;
 	private int la = 133;
 	private int ha = 94;
+	private int oldx = 0;
+	private int oldy = 0;
+	
 	private char map[][] = {
 			{ 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A' },
 			{ 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A' },
@@ -165,5 +168,12 @@ public class viewpanel extends JPanel {
 			revalidate();
 			repaint();
 		}
+	}
+}
+
+class setVehicule {
+	public setVehicule(int x, int y) {
+		JLabel v = new JLabel();
+		v.setIcon(new ImageIcon(new ImageIcon("sprite/voiture.png").getImage().getScaledInstance(133, 94, Image.SCALE_DEFAULT)));
 	}
 }
