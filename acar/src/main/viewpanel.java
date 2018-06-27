@@ -168,19 +168,6 @@ public class viewpanel extends JPanel {
 		}
 		
 		public void run() {
-			try {
-				TimeUnit.MILLISECONDS.sleep(500);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-			setVehicule(oldx, oldy-1);
-			try {
-				TimeUnit.MILLISECONDS.sleep(500);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-			setVehicule(oldx-1, oldy);
-			
 			String oui = null;
 		    SerialTest main = new SerialTest();
 		    main.initialize();
