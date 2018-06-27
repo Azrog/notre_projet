@@ -9,7 +9,8 @@ public class viewframe extends JFrame {
 	
 	public viewframe(String level) {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.add(new viewpanel(level));
+		frame.getContentPane().add(new viewpanel(level));
+		//panel.setVehicule(5,5);
 		frame.pack();
 		frame.setLocationRelativeTo(null);
 		frame.setResizable(true);
